@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>    
+    <title>Fibonacci</title>
+</head>
+<body>
+    <h3>Informe o número de elementos da sequência Fibonacci</h3>
+    <div>
+        <input id="numero" type="number">
+        <button onclick="fibonacci()">Calcular</button>
+        <label id="fibonacci"></label>
+        <label id="resultado"></label>        
+    </div>
+
+    <script src="/Fibonacci/fibonacci.js"></script>
+</body>
+</html>
